@@ -8,13 +8,22 @@ Create and display dismissable notifications for Angular 8. Built with Bootstrap
 
 Run `npm install --save ngx-notification-tray`
 
-1. Add `NotificationTrayModule` to your app.
+Module Installation:
 
-2. Add `lib-notification-tray` where you would like the component to display.
+```
+import { NotificationTrayModule } from 'ngx-notification-tray';
+...
 
-3. Install bootstrap (or bootstrap alert CSS) if desired.
+providers: [NotificationTrayModule]
 
-4. Create notifications.
+```
+
+Add to component:
+
+```
+<lib-notification-tray></lib-notification-tray>
+
+```
 
 ## Creating notifications:
 
